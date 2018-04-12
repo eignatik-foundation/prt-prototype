@@ -1,2 +1,14 @@
 /***   COMMON PAGE STYLES ***/
 html, body { margin: 0; padding: 0 }
+
+.main-wrapper {max-width: 1440px; padding: 0 15px 0 15px;}
+
+nav { background: rgb(244, 244, 244); border-bottom: 1px solid #d1d1d1; }
+
+nav > ul {list-style-type: none; margin: 0; padding: 0;}
+nav > ul > li {display: inline-block; border-bottom: 2px solid transparent; transition: all .3s}
+nav > ul > li.logout, nav > ul > li.settings {float: right;}
+nav > ul > li:hover, nav > ul > li.active {border-bottom: 2px solid #a0a0a0; transition: all .3s}
+nav > ul > li.active > a {color: #3c4b63;}
+nav > ul > li > a {display: block; height: 100%; padding: 10px; color: #a0a0a0; transition: .5s}
+nav > ul > li > a:hover {text-decoration: none; color: #3c4b63; transition: .5s}
