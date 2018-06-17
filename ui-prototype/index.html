@@ -20,24 +20,110 @@
             <ul>
                 <li class="active"><a href="index.html"><i class="fa fa-chart-bar"></i> Dashboard</a></li>
                 <li><a href="members.html"><i class="fa fa-child"></i> Members</a></li>
-                <li><a href="schedule.html"><i class="fa fa-calendar-alt"></i> Schedule</a></li>
                 <li class="logout"><a href="login.html"><i class="fa fa-sign-out-alt"></i></a></li>
-                <li class="settings"><a href="settings.html"><i class="fa fa-cog"></i></a></li>
             </ul>
         </nav>
 
         <div class="container-fluid">
             <div class="row">
-                <aside class="col-lg-4">
-                    Test 1
-                </aside>
-                <main class="col-lg-8">
-                    Test 2
+                <main class="col-lg-12 dashboard">
+                    <div class="user-block">
+                        <!--User profile info-->
+                        <div>
+                            <div class="block block-sm user-info">
+                                <div>
+                                    <img src="images/avatar.png"/>
+                                </div>
+                                <div>
+                                    <h5>John Smith</h5>
+                                    <p>Software Engineer (T2)</p>
+                                </div>
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <!--User score block-->
+                        <div>
+                            <div class="block block-sm user-score">
+                                <div>
+                                    <h4>My Score</h4>
+                                </div>
+                                <!--<div class="user-score_no-reviews">-->
+                                    <!--You didn't pass any review yet.<br/>-->
+                                    <!--<a href="info.html">Learn more</a>-->
+                                <!--</div>-->
+                                <div class="user-score_with-reviews">
+                                    <ul class="user-progress">
+                                        <li>12.3</li>
+                                        <li>14.2</li>
+                                        <li>15.6</li>
+                                    </ul>
+                                    <span class="user-score_difference positive">
+                                        <span></span>
+                                        2.4
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Settings tile -->
+                        <div>
+                            <div class="block block-sm settings-tile">
+                                <a href="settings.html">
+                                    <div>
+                                        <i class="fa fa-cog"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="manage-block manager-view">
+                        <div class="block manage-block_agenda">
+                            <h4>Agenda</h4>
+                            <div>
+                                <ul>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                    <li>skdfmsdf</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="block manage-block_statistics">
+                            <h4>Statistics</h4>
+                            <div>
+                                <ul>
+                                    <li>Team AVG: <span>14.4</span></li>
+                                    <li>Dept AVG: <span>14.4</span></li>
+                                    <li class="divider"></li>
+                                    <li>Cur/Prev: <span>0.4</span></li>
+                                    <li>Personal statistics</li>
+                                    <li>graphic with curve of average progress</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </main>
             </div>
         </div>
 
-        <footer>Footer</footer>
+        <footer>
+            <h6>&copy; 2018. Open Source PRT 0.1</h6>
+            <ul>
+                <li><a href="">GitHub</a></li>
+                <li><a href="">Web-site</a></li>
+            </ul>
+        </footer>
     </section>
 </body>
 </html>
